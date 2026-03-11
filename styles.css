@@ -703,6 +703,99 @@ a:hover {
 }
 
 /* ============================================================
+   Bookshelf
+   ============================================================ */
+.books-group {
+    margin-bottom: 2.5rem;
+}
+
+.books-group-header {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    margin-bottom: 1rem;
+}
+.books-group-header h3 {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.books-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+.dot-reading { background: var(--green); }
+.dot-read    { background: var(--accent); }
+.dot-want    { background: var(--text-muted); }
+
+.books-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.75rem;
+}
+
+.book-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 1rem 1.25rem;
+    transition: border-color var(--transition);
+}
+.book-card:hover {
+    border-color: var(--green);
+}
+
+.books-list-rows {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    overflow: hidden;
+}
+
+.book-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.7rem 1.25rem;
+    border-bottom: 1px solid var(--border);
+    transition: background var(--transition);
+    gap: 1rem;
+}
+.book-row:last-child {
+    border-bottom: none;
+}
+.book-row:hover {
+    background: var(--bg-2);
+}
+
+.book-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+}
+
+.book-title {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--text);
+}
+
+.book-author {
+    font-size: 0.78rem;
+    color: var(--text-muted);
+}
+
+.book-date {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    white-space: nowrap;
+    flex-shrink: 0;
+}
+
+/* ============================================================
    Footer
    ============================================================ */
 .footer {
@@ -783,6 +876,10 @@ a:hover {
     }
 
     .skills-layout {
+        grid-template-columns: 1fr;
+    }
+
+    .books-grid {
         grid-template-columns: 1fr;
     }
 
