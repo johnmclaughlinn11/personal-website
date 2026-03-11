@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John McLaughlin</title>
+    <meta name="description" content="John McLaughlin, Chemical Engineering student at UIUC, lab automation researcher, and ACHA D1 hockey player.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Theme Toggle -->
+    <div class="theme-toggle-wrapper">
+        <div class="theme-toggle" role="group" aria-label="Color theme">
+            <button class="theme-btn" data-theme="light" title="Light mode">
+                <i class="fa-solid fa-sun"></i>
+            </button>
+            <button class="theme-btn" data-theme="dark" title="Dark mode">
+                <i class="fa-solid fa-moon"></i>
+            </button>
+            <button class="theme-btn" data-theme="system" title="System preference">
+                <i class="fa-solid fa-circle-half-stroke"></i>
+            </button>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-inner">
+                <div class="header-photo-wrap">
+                    <img src="headshot.jpg" alt="John McLaughlin" class="header-photo" id="headshot">
+                    <div class="header-photo-placeholder" id="headshot-placeholder">JM</div>
+                </div>
+                <div class="header-text">
+                    <h1 class="header-name">John McLaughlin</h1>
+                    <p class="header-contact">
+                        <a href="mailto:john.mclaughlin113@gmail.com">john.mclaughlin113@gmail.com</a>
+                        <span class="dot">•</span>
+                        <a href="https://linkedin.com/in/johnmclaughlin11" target="_blank">linkedin.com/in/johnmclaughlin11</a>
+                    </p>
+                    <p class="header-bio">Building at the intersection of lab automation, chemical engineering, and AI.</p>
+                    <p class="header-labels">
+                        <span class="label label-orange">Student.</span>
+                        <span class="label label-green">&nbsp;Engineer.</span>
+                        <span class="label label-white">&nbsp;Athlete.</span>
+                    </p>
+                    <div class="header-socials">
+                        <a href="https://linkedin.com/in/johnmclaughlin11" target="_blank" class="social-link" title="LinkedIn">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://github.com/johnmclaughlinn11" target="_blank" class="social-link" title="GitHub">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="https://www.instagram.com/john.mclaughlin" target="_blank" class="social-link" title="Instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="https://x.com/jmclaughlinn11" target="_blank" class="social-link" title="X / Twitter">
+                            <i class="fa-brands fa-x-twitter"></i>
+                        </a>
+                        <a href="mailto:john.mclaughlin113@gmail.com" class="social-link" title="Email">
+                            <i class="fa-solid fa-envelope"></i>
+                        </a>
+                        <a href="John McLaughlin Resume 2026.pdf" target="_blank" class="social-link" title="Resume">
+                            <i class="fa-solid fa-file-lines"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="nav" id="nav">
+        <div class="container">
+            <ul class="nav-list">
+                <li><a href="#about"      class="nav-link" data-section="about">About</a></li>
+                <li><a href="#experience" class="nav-link" data-section="experience">Experience</a></li>
+                <li><a href="#projects"   class="nav-link" data-section="projects">Projects</a></li>
+                <li><a href="#skills"     class="nav-link" data-section="skills">Skills</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <div class="container main-container">
+
+            <!-- ===== ABOUT ===== -->
+            <section id="about" class="section">
+                <h2 class="section-heading">TL;DR</h2>
+
+                <div class="tldr">
+                    <p><strong>Currently I am...</strong><br>
+                    an undergraduate researcher at the <a href="https://ibiofoundry.illinois.edu" target="_blank">NSF iBioFoundry</a> under Dr. Huimin Zhao, developing Python orchestration tools and agentic AI systems for lab automation across a 15+ instrument workcell, finishing my B.S. in <a href="https://chbe.illinois.edu" target="_blank">Chemical &amp; Biomolecular Engineering</a> at UIUC (graduating May 16, 2026), and serving as Director of Operations for UIUC ACHA Division I Ice Hockey.</p>
+
+                    <p><strong>Not so currently, I am...</strong><br>
+                    a former Pharmaceutical Engineering intern at <a href="https://www.revolutionmedicines.com" target="_blank">Revolution Medicines</a> supporting drug product manufacturing, and a former Validation Engineer at <a href="https://www.kymanox.com" target="_blank">Kymanox</a> qualifying novel robotic systems under GMP/FDA guidelines.</p>
+                </div>
+
+                <div class="docs-section">
+                    <h3>Important Documents</h3>
+                    <div class="docs-row">
+                        <a href="John McLaughlin Resume 2026.pdf" target="_blank" class="doc-btn">
+                            <i class="fa-solid fa-file-lines"></i> Resume
+                        </a>
+                    </div>
+                </div>
+
+                <div class="about-paragraphs">
+                    <p>I'm passionate about building systems that make science faster and more reliable. My work sits at the intersection of chemical engineering, software automation, and AI. I believe the next generation of laboratories will be driven by intelligent, autonomous workflows.</p>
+                    <p>I bring the same intensity I have on the ice to everything I do: operating under pressure, executing as part of a team, and constantly improving. I'm driven by hard problems, good teammates, and the belief that showing up fully in academics, in research, and in athletics is its own reward.</p>
+                </div>
+
+                <div class="info-cards">
+                    <div class="info-card">
+                        <h4>Engineering &amp; Automation</h4>
+                        <p>Python orchestration, lab automation systems, pharmaceutical manufacturing, GMP process engineering, and workcell integration.</p>
+                    </div>
+                    <div class="info-card">
+                        <h4>Athletics</h4>
+                        <p>I play ACHA Division I ice hockey at UIUC and serve as Director of Operations, coordinating game day, fan engagement, alumni initiatives, and team partnerships.</p>
+                    </div>
+                    <div class="info-card">
+                        <h4>In my free time</h4>
+                        <p>Building tools at the intersection of AI and science, tinkering with robotics, and finding any excuse to compete.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ===== EXPERIENCE ===== -->
+            <section id="experience" class="section">
+                <h2 class="section-heading">Work Experience</h2>
+
+                <div class="exp-list">
+
+                    <!-- NSF iBioFoundry -->
+                    <div class="exp-item">
+                        <div class="exp-left">
+                            <div class="exp-logo-img">
+                                <img src="iBioFoundry-logo-with-NSF.png" alt="NSF iBioFoundry">
+                            </div>
+                            <span class="exp-date">Aug 2025 – Present</span>
+                        </div>
+                        <div class="exp-right">
+                            <h3 class="exp-company">NSF iBioFoundry, Dr. Huimin Zhao Lab</h3>
+                            <p class="exp-role">Undergraduate Researcher, Lab Automation &amp; Controls</p>
+                            <p class="exp-location"><i class="fa-solid fa-location-dot"></i> Champaign, Illinois</p>
+                            <p class="exp-desc">Troubleshoot cross-layer equipment failures spanning electromechanical and software interfaces, including method logic, labware configuration, and scheduling dependencies. Develop Python orchestration and control logic for executable workflows with parameter validation and runtime error handling. Own end-to-end workcell development on the Tecan Fluent platform. Designed an agentic AI protocol compiler that converts plain-English experiment descriptions into multi-step, machine-readable workflows.</p>
+                            <div class="tags">
+                                <span class="tag">Python</span>
+                                <span class="tag">FluentControl</span>
+                                <span class="tag">Lab Automation</span>
+                                <span class="tag">Agentic AI</span>
+                                <span class="tag">Tecan Fluent</span>
+                                <span class="tag">Workcell Integration</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Revolution Medicines -->
+                    <div class="exp-item">
+                        <div class="exp-left">
+                            <div class="exp-logo-img">
+                                <img src="RevMed-Social-Icon.webp" alt="Revolution Medicines">
+                            </div>
+                            <span class="exp-date">May 2025 – Aug 2025</span>
+                        </div>
+                        <div class="exp-right">
+                            <h3 class="exp-company">Revolution Medicines</h3>
+                            <p class="exp-role">Pharmaceutical Engineer, Drug Product</p>
+                            <p class="exp-location"><i class="fa-solid fa-location-dot"></i> Redwood City, California</p>
+                            <p class="exp-desc">Built an Excel-based inventory forecasting and control dashboard supporting a $3.3M excipient procurement decision by visualizing on-hand inventory, campaign demand, and material order timing. Developed control charts and process performance summaries for 13+ tablet manufacturing campaigns across two strengths. Standardized documentation templates and reporting across DOE, clinical, and PAR deliverables.</p>
+                            <div class="tags">
+                                <span class="tag">Pharmaceutical Manufacturing</span>
+                                <span class="tag">Process Engineering</span>
+                                <span class="tag">GMP Documentation</span>
+                                <span class="tag">Control Charts</span>
+                                <span class="tag">Tech Transfer</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Kymanox Validation -->
+                    <div class="exp-item">
+                        <div class="exp-left">
+                            <div class="exp-logo-img">
+                                <img src="Kymanox Logo.png" alt="Kymanox">
+                            </div>
+                            <span class="exp-date">May 2024 – Aug 2024</span>
+                        </div>
+                        <div class="exp-right">
+                            <h3 class="exp-company">Kymanox</h3>
+                            <p class="exp-role">Validation Engineer</p>
+                            <p class="exp-location"><i class="fa-solid fa-location-dot"></i> Raleigh-Durham, North Carolina</p>
+                            <p class="exp-desc">Co-developed qualification protocols for a novel cleaning validation robot, contributing to User Requirement Specifications, hands-on test execution, and GMP/FDA-aligned documentation. Executed 20+ qualification protocols for automated and temperature-controlled systems. Performed root cause analysis on failure modes during iterative usability testing of an automated swabbing device.</p>
+                            <div class="tags">
+                                <span class="tag">GMP/FDA</span>
+                                <span class="tag">Qualification Protocols</span>
+                                <span class="tag">Root Cause Analysis</span>
+                                <span class="tag">Robotic Validation</span>
+                                <span class="tag">URS</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Kymanox Operations -->
+                    <div class="exp-item">
+                        <div class="exp-left">
+                            <div class="exp-logo-img">
+                                <img src="Kymanox Logo.png" alt="Kymanox">
+                            </div>
+                            <span class="exp-date">May 2022 – Aug 2023</span>
+                        </div>
+                        <div class="exp-right">
+                            <h3 class="exp-company">Kymanox</h3>
+                            <p class="exp-role">Operations Data Engineer</p>
+                            <p class="exp-location"><i class="fa-solid fa-location-dot"></i> Raleigh-Durham, North Carolina</p>
+                            <p class="exp-desc">Led a CEO-sponsored initiative to categorize 2,000+ technical deliverables, enabling standardized pricing, scoping, and capability communication across the firm. Built Smartsheet and Excel tools to track workload and surface resource risks across 50+ active projects, improving execution visibility for technical leadership.</p>
+                            <div class="tags">
+                                <span class="tag">Data Engineering</span>
+                                <span class="tag">Smartsheet</span>
+                                <span class="tag">Operations Analytics</span>
+                                <span class="tag">Excel</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Education -->
+                <h2 class="section-heading" style="margin-top: 4rem;">Education</h2>
+
+                <div class="edu-card">
+                    <div class="edu-left">
+                        <div class="exp-logo-img edu-logo-img">
+                            <img src="Illinois_logo_reversed_orange_rgb.png" alt="University of Illinois">
+                        </div>
+                        <span class="gpa-badge">3.92 GPA</span>
+                    </div>
+                    <div class="edu-right">
+                        <h3 class="edu-school">University of Illinois Urbana-Champaign</h3>
+                        <p class="edu-degree">B.S. in Chemical and Biomolecular Engineering, The Grainger College of Engineering</p>
+                        <p class="edu-meta">Expected May 2026 &nbsp;·&nbsp; Champaign, Illinois</p>
+                        <div class="edu-details">
+                            <div class="edu-detail-item">
+                                <i class="fa-solid fa-flask"></i>
+                                <div>
+                                    <strong>Research Focus</strong>
+                                    <p>Lab automation, agentic AI systems, and Python-driven workflow orchestration in the NSF iBioFoundry.</p>
+                                </div>
+                            </div>
+                            <div class="edu-detail-item">
+                                <i class="fa-solid fa-hockey-puck"></i>
+                                <div>
+                                    <strong>Leadership</strong>
+                                    <p>Director of Operations, UIUC ACHA Division I Ice Hockey, managing game day, alumni, and digital operations for a competitive D1 program.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="edu-transfer">Began coursework at Ohio University (Aug 2021 – May 2024) before transferring to UIUC.</p>
+                    </div>
+                </div>
+
+            </section>
+
+            <!-- ===== PROJECTS ===== -->
+            <section id="projects" class="section">
+                <h2 class="section-heading">Projects</h2>
+                <p class="section-sub">Building tools at the intersection of AI, automation, and science.</p>
+
+                <div class="projects-grid">
+
+                    <div class="project-card">
+                        <div class="project-header">
+                            <h3 class="project-title">Agentic Protocol Compiler</h3>
+                            <span class="project-status status-active">Active</span>
+                        </div>
+                        <p class="project-context">NSF iBioFoundry, Dr. Huimin Zhao Lab</p>
+                        <p class="project-desc">An agentic AI system that converts plain-English experiment descriptions into multi-step, machine-readable workflows with supporting Python execution code for automated equipment coordination. Enables researchers to describe experimental intent in natural language and receive deployment-ready automation scripts for a 15+ instrument workcell.</p>
+                        <div class="tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Agentic AI</span>
+                            <span class="tag">LLM</span>
+                            <span class="tag">Lab Automation</span>
+                            <span class="tag">FluentControl</span>
+                        </div>
+                    </div>
+
+                    <div class="project-card project-card-muted">
+                        <div class="project-header">
+                            <h3 class="project-title">Robot Arm Project</h3>
+                            <span class="project-status status-soon">Coming Soon</span>
+                        </div>
+                        <p class="project-context">Spring 2026</p>
+                        <p class="project-desc">A new robotics project currently in development. More details coming soon.</p>
+                        <div class="tags">
+                            <span class="tag">Robotics</span>
+                            <span class="tag">Python</span>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- ===== SKILLS ===== -->
+            <section id="skills" class="section">
+                <h2 class="section-heading">Technical Skills</h2>
+
+                <div class="skills-layout">
+                    <div class="skills-col">
+                        <div class="skill-group">
+                            <div class="skill-group-header">
+                                <h3>Automation &amp; Controls</h3>
+                                <span class="skill-level">Proficient</span>
+                            </div>
+                            <div class="tags">
+                                <span class="tag">FluentControl</span>
+                                <span class="tag">Workcell Integration</span>
+                                <span class="tag">Liquid Handling</span>
+                                <span class="tag">Multi-instrument Coordination</span>
+                                <span class="tag">Robotic Validation</span>
+                                <span class="tag">Equipment Qualification</span>
+                                <span class="tag">Tecan Fluent</span>
+                            </div>
+                        </div>
+
+                        <div class="skill-group">
+                            <div class="skill-group-header">
+                                <h3>Programming &amp; Modeling</h3>
+                                <span class="skill-level">Proficient</span>
+                            </div>
+                            <div class="tags">
+                                <span class="tag">Python</span>
+                                <span class="tag">MATLAB</span>
+                                <span class="tag">Git</span>
+                                <span class="tag">KNIME</span>
+                                <span class="tag">CHEMCAD</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skills-col">
+                        <div class="skill-group">
+                            <div class="skill-group-header">
+                                <h3>AI &amp; Agentic Systems</h3>
+                                <span class="skill-level">Developing</span>
+                            </div>
+                            <div class="tags">
+                                <span class="tag">Agentic Workflow Design</span>
+                                <span class="tag">LLM Protocol Compilation</span>
+                                <span class="tag">ML Feedback Loops</span>
+                                <span class="tag">Claude API</span>
+                                <span class="tag">Cursor</span>
+                            </div>
+                        </div>
+
+                        <div class="skill-group">
+                            <div class="skill-group-header">
+                                <h3>Data &amp; Documentation</h3>
+                                <span class="skill-level">Proficient</span>
+                            </div>
+                            <div class="tags">
+                                <span class="tag">Excel</span>
+                                <span class="tag">Smartsheet</span>
+                                <span class="tag">GMP Documentation</span>
+                                <span class="tag">Control Charts</span>
+                                <span class="tag">Data Dashboards</span>
+                                <span class="tag">Pass-down Communications</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>John McLaughlin &nbsp;·&nbsp; <a href="mailto:john.mclaughlin113@gmail.com">john.mclaughlin113@gmail.com</a> &nbsp;·&nbsp; <a href="https://linkedin.com/in/johnmclaughlin11" target="_blank">LinkedIn</a></p>
+            <p class="footer-sub">johnmclaughlin.site</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
