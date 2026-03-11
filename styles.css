@@ -742,9 +742,52 @@ a:hover {
     border-radius: var(--radius);
     padding: 1rem 1.25rem;
     transition: border-color var(--transition);
+    display: flex;
+    align-items: flex-start;
+    gap: 0.85rem;
 }
 .book-card:hover {
     border-color: var(--green);
+}
+
+.book-cover-card {
+    width: 56px;
+    height: 84px;
+    object-fit: cover;
+    border-radius: 4px;
+    flex-shrink: 0;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.3);
+}
+
+.book-cover-placeholder {
+    width: 56px;
+    height: 84px;
+    border-radius: 4px;
+    flex-shrink: 0;
+    background: var(--bg-2);
+    border: 1px solid var(--border);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.25rem;
+}
+
+.book-cover-thumb {
+    width: 32px;
+    height: 48px;
+    object-fit: cover;
+    border-radius: 3px;
+    flex-shrink: 0;
+    box-shadow: 1px 1px 4px rgba(0,0,0,0.3);
+}
+
+.book-cover-thumb-placeholder {
+    width: 32px;
+    height: 48px;
+    border-radius: 3px;
+    flex-shrink: 0;
+    background: var(--bg-2);
+    border: 1px solid var(--border);
 }
 
 .books-list-rows {
