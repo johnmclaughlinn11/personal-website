@@ -818,6 +818,7 @@ a:hover {
     display: flex;
     flex-direction: column;
     gap: 0.1rem;
+    flex: 1;
 }
 
 .book-title {
