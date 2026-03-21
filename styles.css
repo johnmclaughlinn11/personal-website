@@ -248,6 +248,31 @@ a:hover {
     text-decoration: none;
 }
 
+.header-resume {
+    margin-top: 0.75rem;
+}
+
+.resume-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.45rem 1.1rem;
+    background: var(--bg-2);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    color: var(--text-2);
+    font-size: 0.875rem;
+    font-weight: 500;
+    transition: all var(--transition);
+    text-decoration: none;
+}
+.resume-btn:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+    text-decoration: none;
+    background: var(--bg-2);
+}
+
 /* ============================================================
    Navigation
    ============================================================ */
