@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mv \"48 laws of power.jpg\" \"How to Win Friends.jpg\" \"a brief history of time.jpg\" \"almanack of naval ravikant.jpg\" \"atomic habits.jpg\" \"build.jpg\" \"extreme ownership.jpg\" \"genesis machine.jpg\" \"high output management.jpg\" \"influence.jpg\" \"invisible solutions.jpg\" \"loonshots.jpg\" \"millionaire fastlane.jpg\" \"outlive.jpg\" \"poor-charlie-s-almanack-1.jpg\" \"power and prediction.jpg\" \"the antidote.jpg\" \"the greatest salesman in the world.jpg\" \"the hard things.jpg\" \"the lean startup.jpg\" \"venture deals.jpg\" \"working backwards.jpg\" \"zero to one.jpg\" images/books/)",
+      "Bash(mv \"Illinois_logo_fullcolor_®_rgb.png\" \"Illinois_logo_reversed_orange_rgb.png\" \"Kymanox Logo.png\" \"RevMed-Social-Icon.webp\" \"iBioFoundry-logo-with-NSF.png\" images/logos/)",
+      "Bash(mv \"headshot - circle.png\" \"headshot.jpg\" images/profile/)",
+      "Bash(mv \"bte web app screenshot.png\" images/projects/)"
+    ]
+  }
+}
