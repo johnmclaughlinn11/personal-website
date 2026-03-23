@@ -665,6 +665,14 @@ a:hover {
     border: 1px solid rgba(251, 146, 60, 0.3);
 }
 
+.project-screenshot {
+    width: 100%;
+    border-radius: var(--radius);
+    border: 1px solid var(--border);
+    margin: 0.75rem 0;
+    display: block;
+}
+
 .project-context {
     font-size: 0.78rem;
     color: var(--accent);
